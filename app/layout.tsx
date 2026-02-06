@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Header } from "@/components/Header";
 import Footer from "@/components/Footer";
 import { AlertNotification } from "@/components/AlertNotification";
+import PingBackend from "@/components/PingBackend";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <PingBackend />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Header />
           {children}
