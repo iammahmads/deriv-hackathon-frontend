@@ -26,7 +26,7 @@ const HomePage = () => {
             Neural Network: Online
           </div>
 
-          <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-6 bg-linear-gradient-to-b from-foreground to-foreground/50 bg-clip-text text-transparent leading-[0.9]">
+          <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-6 bg-linear-to-b from-foreground to-foreground/50 bg-clip-text text-transparent leading-[0.9]">
             STOP FRAUD <br />
             <span className="text-primary italic">BEFORE</span> IT SETTLES.
           </h1>
@@ -62,7 +62,7 @@ const HomePage = () => {
         <div className="relative rounded-[2.5rem] border border-border bg-card overflow-hidden">
 
           {/* Subtle background glow */}
-          <div className="absolute inset-0 bg-linear-gradient-to-br from-primary/10 via-transparent to-transparent pointer-events-none" />
+          <div className="absolute inset-0 bg-linear-to-br from-primary/10 via-transparent to-transparent pointer-events-none" />
 
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 p-12">
 
